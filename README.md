@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://github.com/HammadCodez/HammadCodez">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HammadCodez/HammadCodez/main/dark_mode.svg">
-      <img alt="Hammad Butt's GitHub Profile README" src="https://raw.githubusercontent.com/HammadCodez/HammadCodez/main/light_mode.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+      <img alt="Hammad Butt's GitHub Profile README" src="light_mode.svg">
     </picture>
   </a>
 </div>
