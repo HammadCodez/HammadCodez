@@ -14,17 +14,17 @@ USER_NAME = os.environ['USER_NAME']
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
-def daily_readme(createdAt):
+def daily_readme(birthday):
     """
-    Returns the length of time since my GitHub account was created
+    Returns the length of time since my birthday
     e.g. 'XX years, XX months, XX days'
     """
-    created_date = datetime.datetime.strptime(createdAt, "%Y-%m-%dT%H:%M:%SZ")
-    diff = relativedelta.relativedelta(datetime.datetime.utcnow(), created_date)
-    return '{} {}, {} {}, {} {}'.format(
+    diff = relativedelta.relativedelta(datetime.datetime.utcnow(), birthday)
+    return '{} {}, {} {}, {} {}{}'.format(
         diff.years, 'year' + format_plural(diff.years), 
         diff.months, 'month' + format_plural(diff.months), 
-        diff.days, 'day' + format_plural(diff.days))
+        diff.days, 'day' + format_plural(diff.days),
+        ' 🎂' if (diff.months == 0 and diff.days == 0) else '')
 
 
 def format_plural(unit):
@@ -441,8 +441,8 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
     
-    # Calculate account age as uptime
-    age_data, age_time = perf_counter(daily_readme, acc_date)
+    # Calculate birthday age as uptime
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2005, 3, 7))
     formatter('age calculation', age_time)
     
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
