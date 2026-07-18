@@ -1,0 +1,6 @@
+node_modules/
+package-lock.json
+package.json
+ascii_generator.py
+# If you don't want to keep your original image in github, uncomment the next line:
+# HAMMAD.jpg
