@@ -73,18 +73,18 @@ text, tspan {white-space: pre;}
 <!-- Metric Block 1: Commits -->
 <rect x="375" y="115" width="270" height="85" fill="#000000" rx="8" stroke="#262626" stroke-width="1"/>
 <text x="390" y="138" fill="#a3a3a3" font-size="11px" font-weight="bold">TOTAL COMMITS</text>
-<text x="390" y="180" fill="#10b981" font-size="32px" font-weight="bold" id="commit_data" filter="url(#glow-green)">297</text>
+<text x="390" y="180" fill="#10b981" font-size="32px" font-weight="bold" id="commit_data" filter="url(#glow-green)">298</text>
 
 <!-- Metric Block 2: LOC -->
 <rect x="375" y="215" width="270" height="105" fill="#000000" rx="8" stroke="#262626" stroke-width="1"/>
 <text x="390" y="238" fill="#a3a3a3" font-size="11px" font-weight="bold">LINES OF CODE</text>
-<text x="390" y="278" fill="#00dfeb" font-size="26px" font-weight="bold" id="loc_data" filter="url(#glow-cyan)">851,436</text>
-<text x="390" y="303" font-size="12px"><tspan fill="#10b981" id="loc_add">1,148,867</tspan><tspan fill="#10b981">++</tspan><tspan fill="#404040"> / </tspan><tspan fill="#ef4444" id="loc_del">297,431</tspan><tspan fill="#ef4444">--</tspan></text>
+<text x="390" y="278" fill="#00dfeb" font-size="26px" font-weight="bold" id="loc_data" filter="url(#glow-cyan)">853,934</text>
+<text x="390" y="303" font-size="12px"><tspan fill="#10b981" id="loc_add">1,151,365</tspan><tspan fill="#10b981">++</tspan><tspan fill="#404040"> / </tspan><tspan fill="#ef4444" id="loc_del">297,431</tspan><tspan fill="#ef4444">--</tspan></text>
 
 <!-- Metric Block 3: Repos, Stars, Followers -->
 <rect x="375" y="335" width="270" height="155" fill="#000000" rx="8" stroke="#262626" stroke-width="1"/>
 <text x="390" y="360" fill="#a3a3a3" font-size="11px" font-weight="bold">REPOSITORIES</text>
-<text x="390" y="382" fill="#ffffff" font-size="14px" font-weight="bold"><tspan id="repo_data">42</tspan> <tspan fill="#737373" font-weight="normal">(contrib: </tspan><tspan id="contrib_data" fill="#ffffff">45</tspan><tspan fill="#737373" font-weight="normal">)</tspan></text>
+<text x="390" y="382" fill="#ffffff" font-size="14px" font-weight="bold"><tspan id="repo_data">43</tspan> <tspan fill="#737373" font-weight="normal">(contrib: </tspan><tspan id="contrib_data" fill="#ffffff">46</tspan><tspan fill="#737373" font-weight="normal">)</tspan></text>
 
 <text x="390" y="425" fill="#a3a3a3" font-size="11px" font-weight="bold">STARS</text>
 <text x="390" y="447" fill="#ffffff" font-size="14px" font-weight="bold" id="star_data">0</text>
