@@ -4,7 +4,7 @@ const Jimp = require('jimp');
 const chars = " .:-=+*#%@";
 
 async function generate() {
-  const img = await Jimp.read('HAMMAD.jpg');
+  const img = await Jimp.read('hammad-front.png');
   
   const imgAspect = img.bitmap.width / img.bitmap.height;
   // Consolas character aspect ratio is ~0.55 (width/height)
