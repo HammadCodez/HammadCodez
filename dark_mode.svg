@@ -50,7 +50,7 @@ text, tspan {white-space: pre;}
 <tspan x="45" y="165" class="key">Host</tspan>      <tspan class="cc">::</tspan> <tspan class="value">NUST / NSTP Hatch 8</tspan>
 <tspan x="45" y="200" class="key">Role</tspan>      <tspan class="cc">::</tspan> <tspan class="value">Software Engineer &amp; Founder</tspan>
 <tspan x="45" y="235" class="key">Motto</tspan>     <tspan class="cc">::</tspan> <tspan fill="#00dfeb" font-weight="bold">i build therefore i am</tspan>
-<tspan x="45" y="270" class="key">Uptime</tspan>   <tspan class="cc">::</tspan> <tspan class="value" id="age_data">21 years, 4 months, 11 days</tspan>
+<tspan x="45" y="270" class="key">Uptime</tspan>   <tspan class="cc">::</tspan> <tspan class="value" id="age_data">21 years, 4 months, 12 days</tspan>
 <tspan x="45" y="325" fill="#737373" font-weight="bold">&gt; CONTACT</tspan>
 <tspan x="45" y="365" class="key">Email</tspan>     <tspan class="cc">::</tspan> <tspan class="value">hammadbutt.mail@gmail.com</tspan>
 <tspan x="45" y="400" class="key">LinkedIn</tspan>  <tspan class="cc">::</tspan> <tspan class="value">Muhammad Hammad Butt</tspan>
@@ -73,13 +73,13 @@ text, tspan {white-space: pre;}
 <!-- Metric Block 1: Commits -->
 <rect x="375" y="115" width="270" height="85" fill="#000000" rx="8" stroke="#262626" stroke-width="1"/>
 <text x="390" y="138" fill="#a3a3a3" font-size="11px" font-weight="bold">TOTAL COMMITS</text>
-<text x="390" y="180" fill="#10b981" font-size="32px" font-weight="bold" id="commit_data" filter="url(#glow-green)">298</text>
+<text x="390" y="180" fill="#10b981" font-size="32px" font-weight="bold" id="commit_data" filter="url(#glow-green)">299</text>
 
 <!-- Metric Block 2: LOC -->
 <rect x="375" y="215" width="270" height="105" fill="#000000" rx="8" stroke="#262626" stroke-width="1"/>
 <text x="390" y="238" fill="#a3a3a3" font-size="11px" font-weight="bold">LINES OF CODE</text>
-<text x="390" y="278" fill="#00dfeb" font-size="26px" font-weight="bold" id="loc_data" filter="url(#glow-cyan)">853,934</text>
-<text x="390" y="303" font-size="12px"><tspan fill="#10b981" id="loc_add">1,151,365</tspan><tspan fill="#10b981">++</tspan><tspan fill="#404040"> / </tspan><tspan fill="#ef4444" id="loc_del">297,431</tspan><tspan fill="#ef4444">--</tspan></text>
+<text x="390" y="278" fill="#00dfeb" font-size="26px" font-weight="bold" id="loc_data" filter="url(#glow-cyan)">853,933</text>
+<text x="390" y="303" font-size="12px"><tspan fill="#10b981" id="loc_add">1,151,366</tspan><tspan fill="#10b981">++</tspan><tspan fill="#404040"> / </tspan><tspan fill="#ef4444" id="loc_del">297,433</tspan><tspan fill="#ef4444">--</tspan></text>
 
 <!-- Metric Block 3: Repos, Stars, Followers -->
 <rect x="375" y="335" width="270" height="155" fill="#000000" rx="8" stroke="#262626" stroke-width="1"/>
